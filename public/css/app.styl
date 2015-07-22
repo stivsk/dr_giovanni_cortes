@@ -1,0 +1,127 @@
+@import 'nib'
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400)
+vendor-prefixes ?= webkit moz official
+
+azul = #5400FF
+gris = #515151
+gris-claro = #EEEEEE
+
+*
+	border 0
+	margin 0
+	padding 0
+	::-webkit-scrollbar
+		background-color transparent
+		height 6px
+		width 6px
+		&-track
+			background-color transparent
+		&-thumb
+			background-color azul 
+		
+
+body
+	font-family 'Roboto', sans-serif
+	font-weight 300
+	line-height 2em
+nav
+	text-align center
+	ul
+		li
+			display inline-flex
+			margin 10px
+			a
+				background azul
+				border-radius 100%
+				box-shadow 0px 0px 4px gris, 0px 2px 6px gris
+				color white
+				height 3em
+				padding 2em
+				text-decoration none
+				width 3em
+				transition all cubic-bezier(0.08, 0.45, 0.24, 0.97) 1s 
+				&:hover
+					box-shadow 0px 0px 4px gris, 0px 2px 8px gris
+			i
+				display block
+				font-size 3em
+				text-align center
+	
+#cover
+	bottom 0
+	left 0
+	position fixed
+	right 0
+	top 0
+	z-index 9999999
+#presentation
+	background azul
+	color white
+	height 250px
+	padding-top 1em
+	text-align center
+.pre-text
+	letter-spacing .5em
+	padding 10px
+	text-align center
+	h1
+		animation 1.5s fadeIn 1
+	p 
+		animation 2s fadeIn 1
+	
+.azul
+	background azul
+.container
+	margin 0 auto
+	overflow hidden
+	position relative
+.first
+	background azul
+	box-shadow 0px 1px 10px gris
+	color white
+	padding 4em 2em
+	position relative
+	width 100%
+	z-index 999
+.flex
+	align-items center
+	display flex
+	flex-flow row wrap
+	justify-content center //flex-start,flex-end,space-between,space-around
+.preloader
+	background url(../img/preloader.gif) no-repeat center center
+	background-size contain
+	height 50px
+	margin 0 auto
+	width 50px
+	opacity .3
+.pre-pic
+	animation 1.5s fadeIn 1
+	background url(../img/1.png) no-repeat center center
+	background-size cover
+	border-radius 50%
+	height 150px
+	margin 0 auto
+	margin-bottom 1em
+	width 150px	
+.slider-for
+	width 100%
+.slick-slider
+	margin 7px 0px
+.slick-initialized .slick-slide
+	box-shadow 0px 1px 8px gris	
+.slick-prev
+	position absolute
+	left 0px
+.slick-next
+	position absolute
+	right 50px
+.title
+	font-weight normal
+	letter-spacing .5em
+	padding 1em
+	text-transform uppercase
+	text-align center
+.img-responsive
+	width 100%
+	

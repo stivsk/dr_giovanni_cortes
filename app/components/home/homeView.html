@@ -1,0 +1,89 @@
+<!-- COVER -->
+<div id="cover" class="flex azul" ng-controller="coverController as cover">
+	<div id="presentation">
+		<div class="pre-pic"></div>
+		<div class="pre-text">
+			<h1>{{ cover.cover_title }}</h1>
+			<p>{{ cover.cover_description }}</p>
+		</div>
+		<div class="preloader"></div>
+	</div>
+</div>
+<!-- END COVER -->
+
+<div class="flex container">
+
+	<section ng-controller="homeController as home" class="first">
+		
+		<div class="thumb">
+			<div class="pre-pic"></div>
+		</div>
+
+		<div class="title">
+			<h1>
+				{{ home.name }}
+			</h1>
+		</div>
+
+		<div class="pre-text">
+			<p>{{ home.cover_description }}</p>
+		</div>
+
+	</section>
+
+	<div class="description">
+		{{ home.presentation }}
+	</div>
+
+	<section class="slider-for">
+		<div class="single-item">
+			<div>
+				<img class="img-responsive" src="public/img/3.jpg">
+			</div>
+			<div>
+				<img class="img-responsive" src="public/img/3.jpg">
+			</div>
+			<div>
+				<img class="img-responsive" src="public/img/3.jpg">
+			</div>
+		</div>
+	</section>
+
+
+	<section ng-controller="menuController as menu">
+		<nav>
+			<ul>
+				<li ng-repeat="button in menu.buttons">
+					<a ng-href="{{ button.dir_url }}">
+					 <i class="{{ button.icon }}"></i>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+
+</div>
+
+
+
+<!-- SLIDER SCRIPT -->
+<script>
+	$(document).ready(function(){
+		$('.slider-for').slick({
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        fade: true,
+	        swipe: true,
+	        accessibility: false,
+	        arrows: false
+	    });
+	    $('.single-item').slick({
+	    	autoplay: true,
+	        slide: 'div',
+	        dots: true,
+	        speed: 500,
+	        arrows: false
+	    });
+	});
+</script>
+<!-- END SLIDER SCRIPT -->
