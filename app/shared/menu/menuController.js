@@ -1,60 +1,60 @@
 var menu_buttons = [
 	{
-		'btn_title':'Example #1',
+		'btn_title':'Faciales',
 		'class':'circle',
 		'icon':'icon-users',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #2',
+		'btn_title':'Corporales',
 		'class':'circle',
 		'icon':'icon-accessibility',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #3',
+		'btn_title':'Preguntas',
 		'class':'circle',
 		'icon':'icon-bubbles2',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #4',
+		'btn_title':'Certificaciones',
 		'class':'circle',
 		'icon':'icon-checkmark',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #1',
+		'btn_title':'Antes & Despues',
 		'class':'circle',
 		'icon':'icon-user-plus',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #2',
+		'btn_title':'Donde estoy',
 		'class':'circle',
 		'icon':'icon-map',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #3',
+		'btn_title':'Fotos',
 		'class':'circle',
 		'icon':'icon-camera',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #4',
+		'btn_title':'Fanpage',
 		'class':'circle',
 		'icon':'icon-facebook',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #3',
+		'btn_title':'twitter',
 		'class':'circle',
 		'icon':'icon-twitter',
 		'dir_url':'#toInfinityAndBeyond'
 	},
 	{
-		'btn_title':'Example #4',
+		'btn_title':'Contácto',
 		'class':'circle',
 		'icon':'icon-envelop',
 		'dir_url':'#toInfinityAndBeyond'
