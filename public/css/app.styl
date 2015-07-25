@@ -33,15 +33,16 @@ nav
 			a
 				background azul
 				border-radius 100%
-				box-shadow 0px 0px 4px gris, 0px 2px 6px gris
+				box-shadow 0px 0px 4px gris, 0px 2px 4px gris
 				color white
 				height 3em
 				padding 2em
 				text-decoration none
 				width 3em
 				transition all cubic-bezier(0.08, 0.45, 0.24, 0.97) 1s 
-				&:hover
-					box-shadow 0px 0px 4px gris, 0px 2px 8px gris
+				&:hover,
+				&:active
+					box-shadow 0px 0px 4px gris, 0px 6px 6px gris
 			i
 				display block
 				font-size 3em
@@ -73,7 +74,7 @@ nav
 	background azul
 .container
 	margin 0 auto
-	overflow hidden
+	max-width 460px
 	position relative
 .first
 	background azul
@@ -81,7 +82,6 @@ nav
 	color white
 	padding 4em 2em
 	position relative
-	width 100%
 	z-index 999
 .flex
 	align-items center
@@ -125,3 +125,6 @@ nav
 .img-responsive
 	width 100%
 	
+@media (min-width: 910px)
+	body
+		background red
