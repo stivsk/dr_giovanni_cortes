@@ -11,46 +11,47 @@
 </div>
 <!-- END COVER -->
 
-	<section ng-controller="homeController as home" class="first">
-		
-		<div class="thumb">
-			<div class="pre-pic"></div>
-		</div>
+<section ng-controller="homeController as home" class="first">
+	
+	<div class="thumb">
+		<div class="pre-pic"></div>
+	</div>
 
-		<div class="title">
-			<h1>
-				{{ home.name }}
-			</h1>
-		</div>
+	<div class="title">
+		<h1>
+			{{ home.name }}
+		</h1>
+	</div>
 
-		<div class="pre-text">
-			<p>{{ home.cover_description }}</p>
-		</div>
+	<div class="pre-text">
+		<p>{{ home.cover_description }}</p>
+	</div>
 
-	</section>
-<div class="flex container">
+</section>
+
+<div class="container">
 
 
 	<div class="description">
 		{{ home.presentation }}
 	</div>
 
-	<section class="slider-for">
+	<section class="slider-for flex-item">
 		<div class="single-item">
 			<div>
-				<img class="img-responsive" src="public/img/3.jpg">
+				<img class="img-responsive" src="public/img/test.png">
 			</div>
 			<div>
-				<img class="img-responsive" src="public/img/3.jpg">
+				<img class="img-responsive" src="public/img/test.png">
 			</div>
 			<div>
-				<img class="img-responsive" src="public/img/3.jpg">
+				<img class="img-responsive" src="public/img/test.png">
 			</div>
 		</div>
 	</section>
 
 
-	<section ng-controller="menuController as menu">
+	<section class="menu flex-item" ng-controller="menuController as menu">
 		<nav>
 			<ul>
 				<li ng-repeat="button in menu.buttons">

@@ -42,8 +42,8 @@ nav
 				text-decoration none
 				width 4em
 				transition all cubic-bezier(0.08, 0.45, 0.24, 0.97) 1s 
-				&:hover,
-				&:active
+				&:active,
+				&:hover
 					box-shadow 0px 0px 4px gris, 0px 6px 6px gris
 			i
 				display block
@@ -86,7 +86,7 @@ footer
 	background azul
 .container
 	margin 0 auto
-	max-width 460px
+	max-width 600px
 	position relative
 .first
 	background azul
@@ -99,7 +99,7 @@ footer
 	align-items center
 	display flex
 	flex-flow row wrap
-	justify-content center //flex-start,flex-end,space-between,space-around
+	justify-content center
 .preloader
 	background url(../img/preloader.gif) no-repeat center center
 	background-size contain
@@ -136,4 +136,58 @@ footer
 	text-align center
 .img-responsive
 	width 100%
+
+@media all and (min-width:910px)
+	body
+		padding-top 82px
+		border none
+	footer
+		bottom 0
+		left 0
+		padding 1em
+		position fixed
+		right 0
+
+	.container
+		align-items stretch
+		align-content flex-start
+		display flex
+		flex-direction row
+		flex-wrap nowrap
+		justify-content space-between
+		max-width 90%
+		min-height 420px
+		white-space nowrap
+		.flex-item:nth-child(1)
+			order 0
+			flex 0 1 auto
+			align-self auto
+		.flex-item:nth-child(2)
+			order 0
+			flex 0 1 auto
+			align-self auto
+	.slider-for
+		width 508px
+		height 508px
+		max-width 508px
+		min-width 508px
+		min-height 508px
+		max-height 508px
+	.slick-slider
+		margin 0
+	.first
+		background none
+		box-shadow none
+		color gris
+		left 0
+		right 0
+		padding 1.5em 3em
+		position fixed
+		top 0
+		.thumb
+			display none
+		.title,
+		.pre-text
+			display inline-flex
+			padding 0 .5em 0 .5em
 	
