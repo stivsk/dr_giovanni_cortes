@@ -36,6 +36,7 @@
 		{{ home.presentation }}
 	</div>
 
+	<!-- SLIDER -->
 	<section class="slider-for flex-item">
 		<div class="single-item">
 			<div>
@@ -49,12 +50,13 @@
 			</div>
 		</div>
 	</section>
+	<!-- END SLIDER -->
 
 
 	<section class="menu flex-item" ng-controller="menuController as menu">
 		<nav>
-			<ul>
-				<li ng-repeat="button in menu.buttons">
+			<ul class="container">
+				<li class="flex-item" ng-repeat="button in menu.buttons">
 					<a ng-href="{{ button.dir_url }}">
 					 <i class="{{ button.icon }}"></i>
 					 <p>{{ button.btn_title }}</p>
