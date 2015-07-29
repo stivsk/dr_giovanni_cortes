@@ -32,10 +32,6 @@
 <div class="container">
 
 
-	<div class="description">
-		{{ home.presentation }}
-	</div>
-
 	<!-- SLIDER -->
 	<section class="slider-for flex-item">
 		<div class="single-item">
@@ -57,7 +53,7 @@
 		<nav>
 			<ul class="container">
 				<li class="flex-item" ng-repeat="button in menu.buttons">
-					<a ng-href="{{ button.dir_url }}">
+					<a class="{{ button.modal_dir }}" ng-href="{{ button.dir_url }}">
 					 <i class="{{ button.icon }}"></i>
 					 <p>{{ button.btn_title }}</p>
 					</a>
@@ -65,6 +61,7 @@
 			</ul>
 		</nav>
 	</section>
+	
 
 </div>
 
