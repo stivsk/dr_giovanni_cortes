@@ -1,34 +1,3 @@
-<!-- COVER -->
-<div id="cover" class="flex" ng-controller="coverController as cover">
-	<div id="presentation">
-		<div class="pre-pic"></div>
-		<div class="pre-text">
-			<h1>{{ cover.cover_title }}</h1>
-			<p>{{ cover.cover_description }}</p>
-		</div>
-		<div class="preloader"></div>
-	</div>
-</div>
-<!-- END COVER -->
-
-<section ng-controller="homeController as home" class="first">
-	
-	<div class="thumb">
-		<div class="pre-pic"></div>
-	</div>
-
-	<div class="title">
-		<h1>
-			{{ home.name }}
-		</h1>
-	</div>
-
-	<div class="pre-text">
-		<p>{{ home.cover_description }}</p>
-	</div>
-
-</section>
-
 <div class="container">
 
 
@@ -53,7 +22,7 @@
 		<nav>
 			<ul class="container">
 				<li class="flex-item" ng-repeat="button in menu.buttons">
-					<a class="{{ button.modal_dir }}" ng-href="{{ button.dir_url }}">
+					<a id="{{ button.id }}" class="{{ button.modal_dir }}" ng-href="{{ button.dir_url }}">
 					 <i class="{{ button.icon }}"></i>
 					 <p>{{ button.btn_title }}</p>
 					</a>

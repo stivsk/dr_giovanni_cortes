@@ -1,0 +1,21 @@
+<div class="container">
+	<section class="menu flex-item" ng-controller="facialesController as faciales">
+		<a class="back" href="#/">
+			<i class="icon-circle-left"></i>
+			retroceder
+		</a>
+		<h2>
+			{{ faciales.nameController }}
+		</h2>
+		<nav>
+			<ul class="container">
+				<li class="flex-item" ng-repeat="procedimiento in faciales.procedimientos">
+					<a class="{{ procedimiento.class }}" ng-href="{{ procedimiento.link }}">
+					 <i class="{{ procedimiento.icon }}"></i>
+					 <p>{{ procedimiento.name }}</p>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</section>
+</div>

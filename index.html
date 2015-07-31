@@ -21,7 +21,6 @@
 	<link rel="stylesheet" href="bower_components/slick/slick/slick-theme.css">
 	<link rel="stylesheet" href="public/libs/animate.css">
 	<link rel="stylesheet" href="public/libs/icomoon/style.css">
-	<link rel="stylesheet" href="public/libs/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" href="public/css/app.css">
 
 	<title>DR. GIOVANNI CORTES</title>
@@ -34,6 +33,36 @@
 </head>
 <body>
 
+<!-- COVER -->
+<div id="cover" class="flex" ng-controller="coverController as cover">
+	<div id="presentation">
+		<div class="pre-pic"></div>
+		<div class="pre-text">
+			<h1>{{ cover.cover_title }}</h1>
+			<p>{{ cover.cover_description }}</p>
+		</div>
+		<div class="preloader"></div>
+	</div>
+</div>
+<!-- END COVER -->
+
+	<section ng-controller="homeController as home" class="first">
+	
+		<div class="thumb">
+			<div class="pre-pic"></div>
+		</div>
+
+		<div class="title">
+			<h1>
+				{{ home.name }}
+			</h1>
+		</div>
+
+		<div class="pre-text">
+			<p>{{ home.cover_description }}</p>
+		</div>
+
+	</section>
 
 	<div ng-view></div>
 
@@ -49,8 +78,6 @@
 	<script src="bower_components/slick/slick/slick.min.js"></script>
 	<script src="public/libs/backstretch.js"></script>
 	<script src="public/libs/mousewheel.js"></script>
-	<script src="public/libs/bootbox.js"></script>
-	<script src="public/libs/bootstrap/js/bootstrap.js"></script>
 	<!-- CONTROLADORES -->
 	<script src="app/components/home/homeController.js"></script>
 	<script src="app/components/faciales/facialesController.js"></script>

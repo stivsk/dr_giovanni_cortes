@@ -3,7 +3,7 @@ var menu_buttons = [
 		'btn_title':'Faciales',
 		'class':'circle',
 		'icon':'icon-users',
-		'dir_url':'#/',
+		'dir_url':'#faciales',
 		'modal_dir': 'faciales'
 	},
 	{
@@ -43,9 +43,9 @@ var menu_buttons = [
 	},
 	{
 		'btn_title':'Fotos',
-		'class':'circle',
+		'id':'fotos',
 		'icon':'icon-camera',
-		'dir_url':'#/',
+		'dir_url':'#fotos',
 		'modal_dir':'fotos'
 	},
 	{

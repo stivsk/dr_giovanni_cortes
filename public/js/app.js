@@ -1,16 +1,19 @@
 $(document).ready(function(){
 		
+	$.backstretch("http://drharoldcortes.com/img/back_drharoldcortes.jpg");
+	
 	$('body').css('overflow','hidden');
 
-	$("body").mousewheel(function(event, delta) {
-			this.scrollLeft -= (delta * 30);
-			event.preventDefault();
-		});
-	
-	setTimeout(function(){
+	window.onload = function(){
 		$('#cover').fadeOut();
 		$('body').css('overflow','auto');
-	}, 3000);
+	}, 3000;
+
+	$("body").mousewheel(function(event, delta) {
+		this.scrollLeft -= (delta * 30);
+		event.preventDefault();
+	});
+	
 
 	//VIDEO WRAPPER SETTINGS//
 	var $allVideos = $("iframe[src^='//player.vimeo.com'], iframe[src^='//www.youtube.com'], object, embed"),
@@ -39,68 +42,5 @@ $(document).ready(function(){
 	  });
 
 	}).resize();
-
-
-	//MODAL SETTINGS//
-	
-	$(document).on('click', '.faciales', function(e){
-		bootbox.dialog({
-			title: faciales_title,
-			message : faciales_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.corporales', function(e){
-		bootbox.dialog({
-			title: corporales_title,
-			message : corporales_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.preguntas', function(e){
-		bootbox.dialog({
-			title: preguntas_title,
-			message : preguntas_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.certificaciones', function(e){
-		bootbox.dialog({
-			title: certificaciones_title,
-			message : certificaciones_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.antes-despues', function(e){
-		bootbox.dialog({
-			title: antes_despues_title,
-			message : antes_despues_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.ubicacion', function(e){
-		bootbox.dialog({
-			title: ubicacion_title,
-			message : ubicacion_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.fotos', function(e){
-		bootbox.dialog({
-			title: fotos_title,
-			message : fotos_message,
-			onEscape: function() {}
-		});
-	});
-	$(document).on('click', '.contacto', function(e){
-		bootbox.dialog({
-			size: 'small',
-			title: contacto_title,
-			message : contacto_message,
-			onEscape: function() {}
-		});
-	});
-
-
 
 });

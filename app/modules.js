@@ -7,9 +7,10 @@
 				templateUrl : 'app/components/home/homeView.html',
 				controller 	: 'homeController'
 			})
-			.otherwise({
-            	redirectTo: '/'
-        	});
+			.when('/faciales',{
+				templateUrl	: 'app/components/faciales/facialesView.html',
+				controller 	: 'facialesController'
+			});
 	});
 
 	app.controller('homeController', function(){
@@ -25,6 +26,11 @@
 
 	app.controller('menuController', function(){
 		this.buttons = menu_buttons;
+	});
+
+	app.controller('facialesController', function(){
+		this.nameController = nameController;
+		this.procedimientos = procedimientosFaciales;
 	});
 
 

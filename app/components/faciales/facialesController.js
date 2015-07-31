@@ -1,4 +1,62 @@
-var faciales_title = "PROCEDIMIENTOS FACIALES";
+var nameController = 'procedimientos Faciales';
+var procedimientosFaciales = [
+	{
+		'name' : 'rinoplastia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
 
-var faciales_message = 
-'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quisquam, ad? Fugiat voluptate nam perspiciatis laborum iste a vitae nisi quia voluptatem, eveniet. Inventore praesentium nihil blanditiis, neque officiis aut.';
+	{
+		'name' : 'rejuvenecimiento',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'lineas',
+		'icon' : 'icon-users',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'blefaroplastia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'mentoplastia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'otoplastia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'botox',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'implantes liquidos',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'implantes faciales',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'maquillaje permanente',
+		'icon' : 'icon-user',
+		'link' : '#',
+	}
+];
