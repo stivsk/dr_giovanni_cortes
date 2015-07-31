@@ -1,5 +1,56 @@
-var corporales_title = 
-"PROCEDIMIENTOS CORPORALES";
+var C_nameController = 'procedimientos corporales';
+var procedimientosCorporales = [
+	{
+		'name' : 'lipoescultura',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
 
-var corporales_message = 
-'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quisquam, ad? Fugiat voluptate nam perspiciatis laborum iste a vitae nisi quia voluptatem, eveniet. Inventore praesentium nihil blanditiis, neque officiis aut.';
+	{
+		'name' : 'gluteoplastia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'levantamiento de senos',
+		'icon' : 'icon-users',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'mamoplastia de aumento',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'mamoplastia de reducción',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'abdominoplastia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'cirugia de pantorrilla',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'carboxiterapia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	},
+
+	{
+		'name' : 'escleroterapia',
+		'icon' : 'icon-user',
+		'link' : '#',
+	}
+];

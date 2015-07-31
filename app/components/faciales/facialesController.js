@@ -1,4 +1,4 @@
-var nameController = 'procedimientos Faciales';
+var F_nameController = 'procedimientos Faciales';
 var procedimientosFaciales = [
 	{
 		'name' : 'rinoplastia',
@@ -13,7 +13,7 @@ var procedimientosFaciales = [
 	},
 
 	{
-		'name' : 'lineas',
+		'name' : 'Eliminacion de lineas',
 		'icon' : 'icon-users',
 		'link' : '#',
 	},

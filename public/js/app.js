@@ -9,10 +9,23 @@ $(document).ready(function(){
 		$('body').css('overflow','auto');
 	}, 3000;
 
-	$("body").mousewheel(function(event, delta) {
-		this.scrollLeft -= (delta * 30);
-		event.preventDefault();
-	});
+
+	$('.slider-for').slick({
+	        slidesToShow: 1,
+	        slidesToScroll: 1,
+	        fade: true,
+	        swipe: true,
+	        accessibility: false,
+	        arrows: false
+	    });
+	    $('.single-item').slick({
+	    	autoplay: true,
+	        slide: 'div',
+	        dots: true,
+	        speed: 500,
+	        arrows: false
+	    });
+	  
 	
 
 	//VIDEO WRAPPER SETTINGS//

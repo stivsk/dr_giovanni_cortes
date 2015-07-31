@@ -1,0 +1,13 @@
+<div class="modal_container" ng-controller="corporalesController as corporales">
+	<h2>{{ corporales.nameController }}</h2>
+	<ul>
+		<li ng-repeat="procedimiento in corporales.procedimientos">
+			<a href="{{ procedimiento.link }}">
+				<i class="{{ procedimiento.icon }}"></i>
+				<p>
+					{{ procedimiento.name }}
+				</p>
+			</a>
+		</li>
+	</ul>
+</div>

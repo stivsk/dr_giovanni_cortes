@@ -3,13 +3,17 @@
 
 	app.config(function($routeProvider){
 		$routeProvider
-			.when('/',{
-				templateUrl : 'app/components/home/homeView.html',
-				controller 	: 'homeController'
-			})
 			.when('/faciales',{
 				templateUrl	: 'app/components/faciales/facialesView.html',
 				controller 	: 'facialesController'
+			})
+			.when('/corporales', {
+				templateUrl : 'app/components/corporales/corporalesView.html',
+				controller 	: 'corporalesController'
+			})
+			.when('/ubicacion', {
+				templateUrl : 'app/components/ubicacion/ubicacionView.html',
+				controller  : 'ubicacionController'
 			});
 	});
 
@@ -29,9 +33,16 @@
 	});
 
 	app.controller('facialesController', function(){
-		this.nameController = nameController;
+		this.nameController = F_nameController;
 		this.procedimientos = procedimientosFaciales;
 	});
+
+	app.controller('corporalesController', function(){
+		this.nameController = C_nameController;
+		this.procedimientos = procedimientosCorporales;
+	});
+
+	app.controller('ubicacionController', function(){});
 
 
 

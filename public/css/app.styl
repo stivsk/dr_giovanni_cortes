@@ -60,16 +60,49 @@ nav
 footer
 	padding 4em 2em
 	text-align center
-
-.video-container {
+.modal_container
+	text-align center
+	ul li
+		display inline-flex
+		margin .2em
+		a
+			background gris-claro
+			border-radius 2px
+			color gris
+			padding 2em
+			text-align center
+			text-decoration none
+			p
+				transition all cubic-bezier(0.08, 0.45, 0.24, 0.97) 1s 
+				text-overflow ellipsis
+				text-transform uppercase
+				overflow hidden
+				white-space nowrap
+				width 162px
+			&:hover
+				background gris
+				color gris-claro
+	
+h2
+		color azul
+		font-size 18px
+		font-weight 100
+		letter-spacing 5px
+		margin-top 1em
+		padding-bottom 1em
+		text-align center
+		text-transform uppercase
+		
+.responsive-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
  
-.video-container iframe,
-.video-container object,
-.video-container embed {
+.responsive-container iframe,
+.responsive-container object,
+.responsive-container embed,
+.responsive-container img {
     position: absolute;
     top: 0;
     left: 0;
@@ -111,15 +144,6 @@ footer
 	margin 0 auto
 	max-width 600px
 	position relative
-	h2
-		color azul
-		font-size 18px
-		font-weight 100
-		letter-spacing 5px
-		margin-top 1em
-		padding-bottom 1em
-		text-align center
-		text-transform uppercase
 .first
 	background white
 	box-shadow 0px 1px 10px gris

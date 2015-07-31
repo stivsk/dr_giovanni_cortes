@@ -10,7 +10,7 @@ var menu_buttons = [
 		'btn_title':'Corporales',
 		'class':'circle',
 		'icon':'icon-accessibility',
-		'dir_url':'#/',
+		'dir_url':'#corporales',
 		'modal_dir':'corporales'
 	},
 	{
@@ -38,7 +38,7 @@ var menu_buttons = [
 		'btn_title':'Donde estoy',
 		'class':'circle',
 		'icon':'icon-map',
-		'dir_url':'#/',
+		'dir_url':'#ubicacion',
 		'modal_dir':'ubicacion'
 	},
 	{
