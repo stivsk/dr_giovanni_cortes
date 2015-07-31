@@ -14,6 +14,10 @@
 			.when('/ubicacion', {
 				templateUrl : 'app/components/ubicacion/ubicacionView.html',
 				controller  : 'ubicacionController'
+			})
+			.when('/preguntas', {
+				templateUrl : 'app/components/preguntas/preguntasView.html',
+				controller  : 'preguntasController'
 			});
 	});
 
@@ -43,6 +47,11 @@
 	});
 
 	app.controller('ubicacionController', function(){});
+
+	app.controller('preguntasController', function(){
+		this.nameController = P_nameController;
+		this.pregunta = preguntas;
+	});
 
 
 

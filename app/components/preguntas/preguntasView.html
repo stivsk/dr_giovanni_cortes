@@ -1,0 +1,8 @@
+<div class="modal-container" ng-controller="preguntasController as preguntas">
+	<h2>{{ preguntas.nameController }}</h2>
+	<ol>
+		<li ng-repeat="pregunta in preguntas.pregunta">
+			{{ pregunta.cont }}
+		</li>
+	</ol>
+</div>

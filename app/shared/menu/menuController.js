@@ -17,7 +17,7 @@ var menu_buttons = [
 		'btn_title':'Preguntas',
 		'class':'circle',
 		'icon':'icon-bubbles2',
-		'dir_url':'#/',
+		'dir_url':'#preguntas',
 		'modal_dir':'preguntas'
 	},
 	{
