@@ -18,6 +18,18 @@
 			.when('/preguntas', {
 				templateUrl : 'app/components/preguntas/preguntasView.html',
 				controller  : 'preguntasController'
+			})
+			.when('/antes-despues', {
+				templateUrl : 'app/components/antes-despues/antes-despuesView.html',
+				controller  : 'antes-despuesController'
+			})
+			.when('/certificaciones', {
+				templateUrl : 'app/components/certificaciones/certificacionesView.html',
+				controller  : 'certificacionesController'
+			})
+			.when('/fanpage', {
+				templateUrl : 'app/components/fanpage/fanpageView.html',
+				controller  : 'fanpageController'
 			});
 	});
 
@@ -53,6 +65,18 @@
 		this.pregunta = preguntas;
 	});
 
+	app.controller('antes-despuesController', function(){
+		this.nameController = AD_nameController;
+	});
+
+	app.controller('certificacionesController', function(){
+		this.nameController = CE_nameController;
+		this.text_content = certificacionesContent;
+	})
+
+	app.controller('fanpageController', function(){
+		this.nameController = FB_nameController;
+	});
 
 
 })();

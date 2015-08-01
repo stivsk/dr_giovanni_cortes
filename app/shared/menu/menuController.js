@@ -2,7 +2,7 @@ var menu_buttons = [
 	{
 		'btn_title':'Faciales',
 		'class':'circle',
-		'icon':'icon-users',
+		'icon':'icon-user',
 		'dir_url':'#faciales',
 		'modal_dir': 'faciales'
 	},
@@ -24,14 +24,14 @@ var menu_buttons = [
 		'btn_title':'Certificaciones',
 		'class':'circle',
 		'icon':'icon-checkmark',
-		'dir_url':'#/',
+		'dir_url':'#certificaciones',
 		'modal_dir':'certificaciones'
 	},
 	{
 		'btn_title':'Antes & Despues',
 		'class':'circle',
-		'icon':'icon-user-plus',
-		'dir_url':'#/',
+		'icon':'icon-users',
+		'dir_url':'#antes-despues',
 		'modal_dir':'antes-despues'
 	},
 	{
@@ -42,7 +42,7 @@ var menu_buttons = [
 		'modal_dir':'ubicacion'
 	},
 	{
-		'btn_title':'Fotos',
+		'btn_title':'instagram',
 		'id':'fotos',
 		'icon':'icon-camera',
 		'dir_url':'#fotos',
@@ -52,7 +52,7 @@ var menu_buttons = [
 		'btn_title':'Fanpage',
 		'class':'circle',
 		'icon':'icon-facebook',
-		'dir_url':'#FACEBOOK',
+		'dir_url':'#fanpage',
 	},
 	{
 		'btn_title':'twitter',
