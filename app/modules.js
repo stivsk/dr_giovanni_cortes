@@ -34,6 +34,10 @@
 			.when('/twitter', {
 				templateUrl : 'app/components/twitter/twitterView.html',
 				controller  : 'twitterController'
+			})
+			.when('/instagram', {
+				templateUrl : 'app/components/instagram/instagramView.html',
+				controller  : 'instagramController'
 			});
 	});
 
@@ -84,6 +88,10 @@
 
 	app.controller('twitterController', function(){
 		this.nameController = TW_nameController;
+	});
+
+	app.controller('instagramController', function(){
+		this.nameController = IN_nameController;
 	});
 
 

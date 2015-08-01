@@ -45,7 +45,7 @@ var menu_buttons = [
 		'btn_title':'instagram',
 		'id':'fotos',
 		'icon':'icon-camera',
-		'dir_url':'#fotos',
+		'dir_url':'#instagram',
 		'modal_dir':'fotos'
 	},
 	{
