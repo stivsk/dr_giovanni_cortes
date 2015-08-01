@@ -30,6 +30,10 @@
 			.when('/fanpage', {
 				templateUrl : 'app/components/fanpage/fanpageView.html',
 				controller  : 'fanpageController'
+			})
+			.when('/twitter', {
+				templateUrl : 'app/components/twitter/twitterView.html',
+				controller  : 'twitterController'
 			});
 	});
 
@@ -76,6 +80,10 @@
 
 	app.controller('fanpageController', function(){
 		this.nameController = FB_nameController;
+	});
+
+	app.controller('twitterController', function(){
+		this.nameController = TW_nameController;
 	});
 
 
