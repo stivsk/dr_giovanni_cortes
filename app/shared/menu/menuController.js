@@ -3,50 +3,43 @@ var menu_buttons = [
 		'btn_title':'Faciales',
 		'class':'circle',
 		'icon':'icon-user',
-		'dir_url':'#faciales',
-		'modal_dir': 'faciales'
+		'dir_url':'#faciales'
 	},
 	{
 		'btn_title':'Corporales',
 		'class':'circle',
 		'icon':'icon-accessibility',
-		'dir_url':'#corporales',
-		'modal_dir':'corporales'
+		'dir_url':'#corporales'
 	},
 	{
 		'btn_title':'Preguntas',
 		'class':'circle',
 		'icon':'icon-bubbles2',
-		'dir_url':'#preguntas',
-		'modal_dir':'preguntas'
+		'dir_url':'#preguntas'
 	},
 	{
 		'btn_title':'Certificaciones',
 		'class':'circle',
 		'icon':'icon-checkmark',
-		'dir_url':'#certificaciones',
-		'modal_dir':'certificaciones'
+		'dir_url':'#certificaciones'
 	},
 	{
 		'btn_title':'Antes & Despues',
 		'class':'circle',
 		'icon':'icon-users',
-		'dir_url':'#antes-despues',
-		'modal_dir':'antes-despues'
+		'dir_url':'#antes-despues'
 	},
 	{
 		'btn_title':'Donde estoy',
 		'class':'circle',
 		'icon':'icon-map',
-		'dir_url':'#ubicacion',
-		'modal_dir':'ubicacion'
+		'dir_url':'#ubicacion'
 	},
 	{
 		'btn_title':'instagram',
 		'id':'fotos',
 		'icon':'icon-camera',
-		'dir_url':'#instagram',
-		'modal_dir':'fotos'
+		'dir_url':'#instagram'
 	},
 	{
 		'btn_title':'Fanpage',
@@ -64,7 +57,6 @@ var menu_buttons = [
 		'btn_title':'Contácto',
 		'class':'circle',
 		'icon':'icon-envelop',
-		'dir_url':'#/',
-		'modal_dir':'contacto'
+		'dir_url':'#/'
 	}
 ];
