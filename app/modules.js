@@ -38,6 +38,10 @@
 			.when('/instagram', {
 				templateUrl : 'app/components/instagram/instagramView.html',
 				controller  : 'instagramController'
+			})
+			.when('/contacto', {
+				templateUrl : 'app/components/contacto/contactoView.html',
+				controller  : 'contactoController'
 			});
 	});
 
@@ -92,6 +96,11 @@
 
 	app.controller('instagramController', function(){
 		this.nameController = IN_nameController;
+	});
+
+	app.controller('contactoController', function(){
+		this.nameController = CO_nameController;
+		this.info = contactoInfo;
 	});
 
 

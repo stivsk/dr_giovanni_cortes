@@ -1,5 +1,3 @@
-var contacto_title = 
-"Contácto";
+var CO_nameController = "formulario de contácto";
 
-var contacto_message = 
-'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, quisquam, ad? Fugiat voluptate nam perspiciatis laborum iste a vitae nisi quia voluptatem, eveniet. Inventore praesentium nihil blanditiis, neque officiis aut.';
+var contactoInfo = 'E-mail: haroldcortesm@hotmail.com - Telefonos: (+57) 552 2345 / 316 5388617 - Cra 41 Nº 5B-20 B/Tequendama (Cali-Colombia)';

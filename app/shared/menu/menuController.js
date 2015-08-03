@@ -32,13 +32,13 @@ var menu_buttons = [
 	{
 		'btn_title':'Donde estoy',
 		'class':'circle',
-		'icon':'icon-map',
+		'icon':'icon-location',
 		'dir_url':'#ubicacion'
 	},
 	{
 		'btn_title':'instagram',
 		'id':'fotos',
-		'icon':'icon-camera',
+		'icon':'icon-instagram',
 		'dir_url':'#instagram'
 	},
 	{
@@ -57,6 +57,6 @@ var menu_buttons = [
 		'btn_title':'Contácto',
 		'class':'circle',
 		'icon':'icon-envelop',
-		'dir_url':'#/'
+		'dir_url':'#contacto'
 	}
 ];
