@@ -1,27 +1,55 @@
 <h2 ng-controller="contactoController as contacto"> {{ contacto.nameController }} </h2>
 
-<iframe id="sended" name="sended" frameborder="0"></iframe>
+<iframe name="sended" frameborder="0" id="sended"></iframe>
 
-<form name="frmContacto" action="app/components/contacto/send.php" target="sended" method="POST">
-
-	<label for="first_name"><p>Nombre * </p></label> 
-		<input title="se necesita su nombre" name="first_name" maxlength="50" type="text" required="">
-
-	<label for="last_name"><p>Apellido *</p></label>
-		<input title="se necesita su apellido" type="text" name="last_name" maxlength="50" requiered="">
-	
-	<label for="telephone"><p>Celular * </p></label>
-		<input title="se necesita un numero celular" name="telephone" maxlength="25" type="text" id="celular" required="">
-
-	<label for="email"><p>E-mail * </p></label>
-		<input name="email" maxlength="80" type="email" id="mail" pattern="^[a-zA-Z0-9.!#$%&amp;'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$">
-		
-
-	<label for="comments"><p>Mensaje * </p></label>
-		<textarea name="comments" maxlength="500" title="Se necesita un mensaje" required=""></textarea>
-		
-	<p><input type="submit" name="Submit" value="Enviar"></p>
-
+<form name="contactform" method="post" action="app/components/contacto/send.php" target="sended"> 
+<table width="450px"><!---Este tamaño en px es personalizable -->
+<tr>
+ <td valign="top">
+  <label for="first_name">Nombre *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="last_name">Apellido *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="email">E-mail *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="email" maxlength="80" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="telephone">Teléfono</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="telephone" maxlength="30" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top">
+  <label for="message">Mensaje *</label>
+ </td>
+ <td valign="top">
+  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input type="submit" value="Submit">
+ </td>
+</tr>
+</table>
 </form>
 
 
