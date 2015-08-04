@@ -1,56 +1,12 @@
 <h2 ng-controller="contactoController as contacto"> {{ contacto.nameController }} </h2>
 
-<iframe name="sended" frameborder="0" id="sended"></iframe>
+<!-- www.123contactform.com script begins here -->
+<iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123contactform.com/my-contact-form-1535377.html">
+<p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
+</iframe>
 
-<form name="contactform" method="post" action="app/components/contacto/send.php" target="sended"> 
-<table width="450px"><!---Este tamaño en px es personalizable -->
-<tr>
- <td valign="top">
-  <label for="first_name">Nombre *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="last_name">Apellido *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">E-mail *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Teléfono</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="message">Mensaje *</label>
- </td>
- <td valign="top">
-  <textarea  name="message" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">
- </td>
-</tr>
-</table>
-</form>
+
+
 
 
 <div class="contacto-info" ng-controller="contactoController as contacto">

@@ -54,7 +54,7 @@ var menu_buttons = [
 		'dir_url':'#twitter',
 	},
 	{
-		'btn_title':'Contácto',
+		'btn_title':'Contacto',
 		'class':'circle',
 		'icon':'icon-envelop',
 		'dir_url':'#contacto'
