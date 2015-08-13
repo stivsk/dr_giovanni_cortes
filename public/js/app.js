@@ -7,8 +7,11 @@ $(document).ready(function(){
 	};
 
 	var h = $(window).height();
+	var w = $(window).width();
 
-	$('body').height(h);
+	if (w >= 910) {
+		$('body').height(h);
+	};
 
 	$('.slider-for').slick({
 	        slidesToShow: 1,
