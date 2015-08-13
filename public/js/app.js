@@ -2,17 +2,13 @@ $(document).ready(function(){
 		
 	$.backstretch("http://drharoldcortes.com/img/back_drharoldcortes.jpg");
 	
-	$('body').css('overflow','hidden');
-
 	window.onload = function(){
 		$('#cover').fadeOut();
-		$('body').css('overflow','auto');
-	}, 3000;
+	};
 
-	/*$("body").mousewheel(function(event, delta) {
-		this.scrollLeft -= (delta * 30);
-		event.preventDefault();
-	});*/
+	var h = $(window).height();
+
+	$('body').height(h);
 
 	$('.slider-for').slick({
 	        slidesToShow: 1,
