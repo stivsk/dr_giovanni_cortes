@@ -26,10 +26,90 @@
 				templateUrl	: 'app/components/faciales/facialesView.html',
 				controller 	: 'facialesController'
 			})
+				//RUTAS DE PROC. FACIALES
+				.when('/rinoplastia',{
+					templateUrl	: 'app/components/faciales/rinoplastiaView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/rejuvenecimiento',{
+					templateUrl	: 'app/components/faciales/rejuvenecimientoView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/eliminacion_de_lineas',{
+					templateUrl	: 'app/components/faciales/eliminacion_de_lineasView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/blefaroplastia',{
+					templateUrl	: 'app/components/faciales/blefaroplastiaView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/mentoplastia',{
+					templateUrl	: 'app/components/faciales/mentoplastiaView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/otoplastia',{
+					templateUrl	: 'app/components/faciales/otoplastiaView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/botox',{
+					templateUrl	: 'app/components/faciales/botoxView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/implantes_liquidos',{
+					templateUrl	: 'app/components/faciales/implantes_liquidosView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/implantes_faciales',{
+					templateUrl	: 'app/components/faciales/implantes_facialesView.html',
+					controller 	: 'facialesController'
+				})
+				.when('/maquillaje_permanente',{
+					templateUrl	: 'app/components/faciales/maquillaje_permanenteView.html',
+					controller 	: 'facialesController'
+				})
+				//FIN RUTAS DE PROC. FACIALES
 			.when('/corporales', {
 				templateUrl : 'app/components/corporales/corporalesView.html',
 				controller 	: 'corporalesController'
 			})
+				//RUTAS DE PROC. CORPORALES
+				.when('/lipoescultura', {
+					templateUrl : 'app/components/corporales/lipoesculturaView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/gluteoplastia', {
+					templateUrl : 'app/components/corporales/gluteoplastiaView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/levantamiento_de_senos', {
+					templateUrl : 'app/components/corporales/levantamiento_de_senosView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/mamoplastia_de_aumento', {
+					templateUrl : 'app/components/corporales/mamoplastia_de_aumentoView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/mamoplastia_de_reduccion', {
+					templateUrl : 'app/components/corporales/mamoplastia_de_reduccionView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/abdominoplastia', {
+					templateUrl : 'app/components/corporales/abdominoplastiaView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/cirugia_de_pantorrilla', {
+					templateUrl : 'app/components/corporales/cirugia_de_pantorrillaView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/carboxiterapia', {
+					templateUrl : 'app/components/corporales/carboxiterapiaView.html',
+					controller 	: 'corporalesController'
+				})
+				.when('/escleroterapia', {
+					templateUrl : 'app/components/corporales/escleroterapiaView.html',
+					controller 	: 'corporalesController'
+				})
+				//FIN RUTAS DE PROC. CORPORALES
 			.when('/ubicacion', {
 				templateUrl : 'app/components/ubicacion/ubicacionView.html',
 				controller  : 'ubicacionController'

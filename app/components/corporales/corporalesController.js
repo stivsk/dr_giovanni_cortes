@@ -3,54 +3,54 @@ var procedimientosCorporales = [
 	{
 		'name' : 'lipoescultura',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#lipoescultura'
 	},
 
 	{
 		'name' : 'gluteoplastia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#gluteoplastia'
 	},
 
 	{
 		'name' : 'levantamiento de senos',
 		'icon' : 'icon-users',
-		'link' : '#',
+		'link' : '#levantamiento_de_senos'
 	},
 
 	{
 		'name' : 'mamoplastia de aumento',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#mamoplastia_de_aumento'
 	},
 
 	{
 		'name' : 'mamoplastia de reducción',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#mamoplastia_de_reduccion'
 	},
 
 	{
 		'name' : 'abdominoplastia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#abdominoplastia'
 	},
 
 	{
 		'name' : 'cirugia de pantorrilla',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#cirugia_de_pantorrilla'
 	},
 
 	{
 		'name' : 'carboxiterapia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#carboxiterapia'
 	},
 
 	{
 		'name' : 'escleroterapia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#escleroterapia'
 	}
 ];

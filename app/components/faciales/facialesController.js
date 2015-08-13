@@ -3,60 +3,60 @@ var procedimientosFaciales = [
 	{
 		'name' : 'rinoplastia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#rinoplastia',
 	},
 
 	{
 		'name' : 'rejuvenecimiento',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#rejuvenecimiento',
 	},
 
 	{
 		'name' : 'Eliminacion de lineas',
 		'icon' : 'icon-users',
-		'link' : '#',
+		'link' : '#eliminacion_de_lineas',
 	},
 
 	{
 		'name' : 'blefaroplastia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#blefaroplastia',
 	},
 
 	{
 		'name' : 'mentoplastia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#mentoplastia',
 	},
 
 	{
 		'name' : 'otoplastia',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#otoplastia',
 	},
 
 	{
 		'name' : 'botox',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#botox',
 	},
 
 	{
 		'name' : 'implantes liquidos',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#implantes_liquidos',
 	},
 
 	{
 		'name' : 'implantes faciales',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#implantes_faciales',
 	},
 
 	{
 		'name' : 'maquillaje permanente',
 		'icon' : 'icon-user',
-		'link' : '#',
+		'link' : '#maquillaje_permanente',
 	}
 ];
