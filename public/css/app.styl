@@ -4,7 +4,8 @@ vendor-prefixes ?= webkit moz official
 
 azul = #00AAFF
 gris = #515151
-gris-claro = #EEEEEE
+gris_claro = #EEEEEE
+vino_tinto = #8E2949
 
 *
 	border 0
@@ -26,7 +27,6 @@ body
 	font-family 'Roboto', sans-serif
 	font-weight 300
 	line-height 2em
-	border-bottom .2em solid azul
 nav
 	text-align center
 	ul
@@ -38,18 +38,21 @@ nav
 				animation 1s bounceIn 1
 				background azul
 				border-radius 100%
-				box-shadow 0px 0px 2px gris, 0px 2px 4px gris
+				box-shadow 0 2px 4px gris
 				color white
 				height 4em
 				padding 2em
 				text-decoration none
 				width 4em
-				transition all cubic-bezier(0.08, 0.45, 0.24, 0.97) 1s 
-				&:focus,
-				&:active,
-				&:hover
+				transition all cubic-bezier(0.43, 0.6, 0, 0.99) 1s
+				&:active
 					border none
-					box-shadow 0px 0px 4px gris, 0px 6px 6px gris
+					box-shadow 0 2px 4px gris
+				&:hover,
+				&:focus
+					border none
+					box-shadow 0 4px 6px gris
+					outline none
 			i
 				display block
 				font-size 3em
@@ -71,7 +74,7 @@ footer
 		display inline-flex
 		margin .2em
 		a
-			background gris-claro
+			background gris_claro
 			border-radius 2px
 			color gris
 			padding 2em
@@ -86,7 +89,7 @@ footer
 				width 162px
 			&:hover
 				background gris
-				color gris-claro
+				color gris_claro
 ol
 	margin-left 30px !important
 	
@@ -105,23 +108,27 @@ h2
 		text-align center
 		text-transform uppercase
 		
-.responsive-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
- 
-.responsive-container iframe,
-.responsive-container object,
-.responsive-container embed,
-.responsive-container img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-	
+.responsive-container
+	position relative
+	padding-bottom: 56.25%
+	padding-top 30px 
+	height 0 
+	overflow hidden
+	iframe,
+	object,
+	embed,
+	img
+		position absolute
+		top 0
+		left 0
+		width 100%
+		height 100%
+
+#google_translate_element
+	float right !important
+	.goog-te-gadget-simple
+		background transparent !important
+		border none !important
 #cover
 	background white
 	bottom 0
