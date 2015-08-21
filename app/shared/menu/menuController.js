@@ -3,43 +3,58 @@ var menu_buttons = [
 		'btn_title':'Faciales',
 		'class':'circle',
 		'icon':'icon-user',
-		'dir_url':'#faciales'
+		'dir_url':'#faciales',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Corporales',
 		'class':'circle',
 		'icon':'icon-accessibility',
-		'dir_url':'#corporales'
+		'dir_url':'#corporales',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Preguntas',
 		'class':'circle',
 		'icon':'icon-bubbles2',
-		'dir_url':'#preguntas'
+		'dir_url':'#preguntas',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Certificaciones',
 		'class':'circle',
 		'icon':'icon-checkmark',
-		'dir_url':'#certificaciones'
+		'dir_url':'#certificaciones',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Antes & Despues',
 		'class':'circle',
 		'icon':'icon-users',
-		'dir_url':'#antes-despues'
+		'id':'open-popup',
+		'dir_url':'',
+		'toggle':'',
+		'target':''
 	},
 	{
 		'btn_title':'Donde estoy',
 		'class':'circle',
 		'icon':'icon-location',
-		'dir_url':'#ubicacion'
+		'dir_url':'#ubicacion',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'instagram',
 		'id':'fotos',
 		'icon':'icon-instagram',
-		'dir_url':'#instagram'
+		'dir_url':'#instagram',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Fanpage',
@@ -52,11 +67,15 @@ var menu_buttons = [
 		'class':'circle',
 		'icon':'icon-twitter',
 		'dir_url':'#twitter',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Contacto',
 		'class':'circle',
 		'icon':'icon-envelop',
-		'dir_url':'#contacto'
+		'dir_url':'#contacto',
+		'toggle':'modal',
+		'target':'#myModal'
 	}
 ];

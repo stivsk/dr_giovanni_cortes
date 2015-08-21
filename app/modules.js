@@ -119,7 +119,6 @@
 				controller  : 'preguntasController'
 			})
 			.when('/antes-despues', {
-				templateUrl : 'app/components/antes-despues/antes-despuesView.html',
 				controller  : 'antes-despuesController'
 			})
 			.when('/certificaciones', {
