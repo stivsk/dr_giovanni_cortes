@@ -25,18 +25,18 @@ var menu_buttons = [
 		'target':''
 	},
 	{
-		'btn_title':'Certificaciones',
-		'class':'circle',
-		'icon':'icon-checkmark',
-		'dir_url':'#certificaciones',
-		'toggle':'modal',
-		'target':'#myModal'
-	},
-	{
 		'btn_title':'Preguntas',
 		'class':'circle',
 		'icon':'icon-bubbles2',
 		'dir_url':'#preguntas',
+		'toggle':'modal',
+		'target':'#myModal'
+	},
+	{
+		'btn_title':'Certificaciones',
+		'class':'circle',
+		'icon':'icon-library',
+		'dir_url':'#certificaciones',
 		'toggle':'modal',
 		'target':'#myModal'
 	},
