@@ -36,7 +36,7 @@ var menu_buttons = [
 		'class':'circle',
 		'icon':'icon-users',
 		'id':'open-popup',
-		'dir_url':'',
+		'dir_url':'#',
 		'toggle':'',
 		'target':''
 	},
