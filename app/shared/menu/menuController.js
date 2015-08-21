@@ -16,12 +16,13 @@ var menu_buttons = [
 		'target':'#myModal'
 	},
 	{
-		'btn_title':'Preguntas',
+		'btn_title':'Antes & Despues',
 		'class':'circle',
-		'icon':'icon-bubbles2',
-		'dir_url':'#preguntas',
-		'toggle':'modal',
-		'target':'#myModal'
+		'icon':'icon-users',
+		'id':'open-popup',
+		'dir_url':'#',
+		'toggle':'',
+		'target':''
 	},
 	{
 		'btn_title':'Certificaciones',
@@ -32,13 +33,12 @@ var menu_buttons = [
 		'target':'#myModal'
 	},
 	{
-		'btn_title':'Antes & Despues',
+		'btn_title':'Preguntas',
 		'class':'circle',
-		'icon':'icon-users',
-		'id':'open-popup',
-		'dir_url':'#',
-		'toggle':'',
-		'target':''
+		'icon':'icon-bubbles2',
+		'dir_url':'#preguntas',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'Donde estoy',
