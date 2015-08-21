@@ -1,2 +1,2 @@
-var name = 'dr giovanni cortes';
-var presentation = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, id cumque. Distinctio consectetur ducimus fugit, obcaecati nemo eius quaerat veritatis, labore, excepturi voluptate minima! Delectus rem velit ratione veritatis sit!';
+var name = 'DR GIOVANNI CORTES';
+var description = 'CIRUJANO ESTÉTICO';

@@ -41,12 +41,12 @@
 <body>
 
 <!-- COVER -->
-<div id="cover" class="flex" ng-controller="coverController as cover">
+<div id="cover" class="flex" ng-controller="homeController as cover">
 	<div id="presentation">
 		<div class="pre-pic"></div>
 		<div class="pre-text">
-			<h1>{{ cover.cover_title }}</h1>
-			<p>{{ cover.cover_description }}</p>
+			<h1>{{ cover.name }}</h1>
+			<p>{{ cover.description }}</p>
 		</div>
 		<div class="preloader"></div>
 	</div>
@@ -74,7 +74,7 @@
 		</div>
 
 		<div class="pre-text">
-			<p>{{ home.cover_description }}</p>
+			<p>{{ home.description }}</p>
 		</div>
 
 	</section>
@@ -104,7 +104,6 @@
 	</section>
 	<!-- END SLIDER -->
 
-
 	<section class="menu flex-item" ng-controller="menuController as menu">
 		<nav>
 			<ul class="container">
@@ -121,10 +120,8 @@
 </div>
 
 
-
-
-	<footer ng-controller="coverController as footer">
-		{{ footer.cover_title }} · Colombia 2015 · By SPIWER &copy;
+	<footer ng-controller="homeController as footer">
+		{{ footer.name }} · Colombia 2015 · By SPIWER &copy;
 	</footer>
 
 	<!-- SCRIPT TAGS -->
@@ -141,14 +138,6 @@
 	<script src="app/components/faciales/facialesController.js"></script>
 	<script src="app/components/corporales/corporalesController.js"></script>
 	<script src="app/components/preguntas/preguntasController.js"></script>
-	<script src="app/components/certificaciones/certificacionesController.js"></script>
-	<script src="app/components/antes-despues/antes-despuesController.js"></script>
-	<script src="app/components/ubicacion/ubicacionController.js"></script>
-	<script src="app/components/fanpage/fanpageController.js"></script>
-	<script src="app/components/twitter/twitterController.js"></script>
-	<script src="app/components/instagram/instagramController.js"></script>
-	<script src="app/components/fotos/fotosController.js"></script>
-	<script src="app/components/contacto/contactoController.js"></script>
 	<script src="app/shared/cover/coverController.js"></script>
 	<script src="app/shared/menu/menuController.js"></script>
 	<!-- MODULOS -->
@@ -158,7 +147,7 @@
 
 		
 
-<!-- Modal -->
+<!-- // MODAL // -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
@@ -176,6 +165,7 @@
     </div>
   </div>
 </div>
+<!-- // FIN MODAL // -->
 
 </body>
 </html>

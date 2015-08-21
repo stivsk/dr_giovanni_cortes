@@ -1,1 +1,0 @@
-var AD_nameController = "Antes & Despues";
