@@ -3,8 +3,8 @@ $(document).ready(function(){
 	$('#open-popup').magnificPopup({
 	    items: [
 	      {
-	        src: 'http://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Peter_%26_Paul_fortress_in_SPB_03.jpg/800px-Peter_%26_Paul_fortress_in_SPB_03.jpg',
-	        title: 'Peter & Paul fortress in SPB'
+	        src: 'public/img/1.jpg',
+	        title: '@giovannicortes_cirugiaplastica'
 	      },
 	      {
 	        src: 'http://vimeo.com/123123',

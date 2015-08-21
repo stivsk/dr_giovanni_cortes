@@ -61,6 +61,8 @@ var menu_buttons = [
 		'class':'circle',
 		'icon':'icon-facebook',
 		'dir_url':'#fanpage',
+		'toggle':'modal',
+		'target':'#myModal'
 	},
 	{
 		'btn_title':'twitter',
